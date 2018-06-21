@@ -1,1 +1,1 @@
-# Ajax Sidebar Cart
+# Shopify Ajax Sidebar Cart
