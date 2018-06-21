@@ -380,7 +380,9 @@ var ajaxCart = (function(module, $) {
       // Add or subtract from the current quantity
       if ($el.hasClass('ajaxcart__qty--plus')) {
         qty += 1;
-      } else {
+      }else if($el.hasClass('remove')){
+        qty *= 0;
+      }else {
         qty -= 1;
         if (qty <= 0) qty = 0;
       }
